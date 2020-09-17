@@ -1,0 +1,9 @@
+name: hello-world
+core_version: ">=4.0.0"
+accessor:
+  username: admin@opencord.org
+  password: letmein
+  endpoint: xos-core:50051
+required_models:
+  - HelloWorldService
+  - HelloWorldServiceInstance
